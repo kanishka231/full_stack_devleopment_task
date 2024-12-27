@@ -1,0 +1,55 @@
+
+.app{
+  text-align: center;
+}
+
+.find-path-button{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #461895;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.grid-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.grid-row{
+  display: flex;
+  
+}
+
+.grid-cell{
+ width:30px;
+  height:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 12px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.grid-cell:hover{
+  background-color: #25a349;
+}
+
+.grid-cell.selected{
+  background-color: #8d0d4b;
+  color: #cccfcf00;
+  font-weight: bold;
+}
+
+.grid-cell.path{
+  background-color: #2b79c3;
+  color: white;
+  font-weight: bold;
+}
